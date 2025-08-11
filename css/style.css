@@ -8807,6 +8807,21 @@ h1, h2, h3, h4, h5,
         font-weight: 600;
         color: #000000;
         width: 130px; }
+    .project .text {
+    color: #fff; /* ubah warna teks jadi putih */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* tambahkan shadow supaya kontras */
+}
+
+.project .text h3 {
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.project .text span {
+    color: #f1f1f1; /* sedikit abu terang */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
 
 .ftco-about .my-interest {
   margin-top: 30px; }
@@ -8831,6 +8846,30 @@ h1, h2, h3, h4, h5,
       font-weight: 600;
       color: #000000;
       padding-left: 5px; }
+
+
+      /* Style untuk ikon di Services dan Interest */
+.services .icon,
+.my-interest .icon {
+    background-color: #4CAF50; /* hijau terang */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+footer .author-name {
+    color: #fff; /* putih supaya kontras */
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5); /* tambahkan bayangan untuk keterbacaan */
+}
+
+
+.services .icon i,
+.my-interest .icon i {
+    color: #fff; /* ikon putih */
+    font-size: 22px; /* ukuran ikon */
+}
+
 
 .services {
   -moz-transition: all 0.3s ease;
